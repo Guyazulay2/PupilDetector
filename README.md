@@ -11,7 +11,7 @@ In this work, we used the DeepVOG model to predict the pupil center coordinates 
 
 **1. By a docker image**
 ```ruby
-if
+$
 ```
 
 **2. Package installation**
@@ -19,10 +19,25 @@ if
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 2.1 Please pull the package from repository:
 ```ruby
-if
+$
 ```
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-2.2 Please install the following prerequisites: 
+2.2 Please move to the PupilDetector directory and type: 
 ```ruby
-if
+$ python setup.py install
 ```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2.3 Please install the following prerequisites: 
+```ruby
+numpy
+scikit-video
+scikit-image
+tensorflow-gpu
+keras
+flask
+OpenCV
+```
+
+
