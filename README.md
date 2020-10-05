@@ -37,7 +37,28 @@ scikit-image
 tensorflow-gpu
 keras
 flask
-OpenCV
+opencv
 ```
 
+## Usage (Command-line interface) ##
 
+In order to use the DeepVOG model, it is necessary to first fit an eyeball model on a given input video. There is an example of that as a JSON file available in the repository. The deserved command is:
+```ruby
+$ python -m deepvog --fit /PATH/video_fit.mp4 /PATH/eyeball_model.json
+```
+
+If there is no need to fit an eyeball model as described, there are two ways to predict the pupil center:
+1. By the "infer" mode:
+```ruby
+$ python setup.py install
+```
+
+2. By an HTTP request:
+```ruby
+$ curl -X POST -F "image_file=@exmp.jpg" http://$PUBLIC_IP:5000/
+```
+
+## Credits ##
+The original DeepVOG repository is available in following link: ![](https://github.com/pydsgz/DeepVOG)
+
+![](https://github.com/dspip/PupilDetector/demo/deepvog_exmp.gif)
