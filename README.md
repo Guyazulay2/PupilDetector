@@ -62,5 +62,5 @@ $ curl -X POST -F "image_file=@exmp.jpg" http://$PUBLIC_IP:5000/
 The original DeepVOG repository is available in following link: https://github.com/pydsgz/DeepVOG
 
 <p align="center">
-  ![](deepvog_exmp.gif)
 </p>
+![](deepvog_exmp.gif)
