@@ -59,6 +59,6 @@ $ curl -X POST -F "image_file=@exmp.jpg" http://$PUBLIC_IP:5000/
 ```
 
 ## Credits ##
-The original DeepVOG repository is available in following link: ![a](https://github.com/pydsgz/DeepVOG)
+The original DeepVOG repository is available in following link: https://github.com/pydsgz/DeepVOG
 
-![a](https://github.com/dspip/PupilDetector/demo/deepvog_exmp.gif)
+![](https://github.com/dspip/PupilDetector/demo/deepvog_exmp.gif)
