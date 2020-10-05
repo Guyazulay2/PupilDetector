@@ -44,13 +44,13 @@ opencv
 
 In order to use the DeepVOG model, it is necessary to first fit an eyeball model on a given input video. There is an example of that as a JSON file available in the repository. The deserved command is:
 ```ruby
-$ python -m deepvog --fit /PATH/video_fit.mp4 /PATH/eyeball_model.json
+$ python -m deepvog --fit [VIDEO_FIT_PATH] [EYEBALL_MODEL_PATH]
 ```
 
 If there is no need to fit an eyeball model as described, there are two ways to predict the pupil center:
 1. By the "infer" mode:
 ```ruby
-$ python setup.py install
+$ python -m deepvog --infer [IMAGE_PATH] [EXISTING_EYEBALL_MODEL_PATH] [CSV_RESULTS_FILE_PATH] -v [IMAGE_INFERENCE_PATH]
 ```
 
 2. By an HTTP request:
