@@ -16,8 +16,10 @@ if
 
 **2. Package installation**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 Please pull the package from repository:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```ruby
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2.1 Please pull the package from repository:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+```ruby
 if
 ```
 2.2 Please install the following prerequisites: 
