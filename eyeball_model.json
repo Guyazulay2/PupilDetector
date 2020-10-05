@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d74d667e14119db6f9dc06575814f3ee0f1166aead330ff82290db1970ea3c87
-size 228
+{
+    "aver_eye_radius": 1295.4417585777724,
+    "eye_centre": [
+        [
+            -194.50145940694603
+        ],
+        [
+            133.86888195148856
+        ],
+        [
+            3333.3333333333335
+        ]
+    ]
+}
