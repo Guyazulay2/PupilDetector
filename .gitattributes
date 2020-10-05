@@ -1,0 +1,15 @@
+annotation_tool filter=lfs diff=lfs merge=lfs -text
+dist filter=lfs diff=lfs merge=lfs -text
+eyeball_model.json filter=lfs diff=lfs merge=lfs -text
+LICENSE filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+deepvog filter=lfs diff=lfs merge=lfs -text
+setup.py filter=lfs diff=lfs merge=lfs -text
+RELEASE.md filter=lfs diff=lfs merge=lfs -text
+deepvog.egg-info filter=lfs diff=lfs merge=lfs -text
+demo filter=lfs diff=lfs merge=lfs -text
+doc filter=lfs diff=lfs merge=lfs -text
+DeepVOG_dspip filter=lfs diff=lfs merge=lfs -text
+build filter=lfs diff=lfs merge=lfs -text
+citations.bib filter=lfs diff=lfs merge=lfs -text
+ellipsoids.png filter=lfs diff=lfs merge=lfs -text
