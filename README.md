@@ -16,11 +16,11 @@ if
 
 **2. Package installation**
 
-2.1 Please pull the package from repository:
-```ruby
-if
-```
-2.2 Please install the following prerequisites: 
-```ruby
-if
-```
+  2.1 Please pull the package from repository:
+  ```ruby
+  if
+  ```
+  2.2 Please install the following prerequisites: 
+  ```ruby
+  if
+  ```
