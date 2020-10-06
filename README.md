@@ -1,7 +1,6 @@
 # **PupilDetector** #
 
-This project is a different version of the DeepVOG model, presented in the credits section below.
-
+This project uses the DeepVOG model, presented in the credits section below.
 The original DeepVOG is a framework for pupil segmentation and gaze estimation based on a fully convolutional neural network.
 Currently, it is available for offline gaze estimation of eye-tracking video clips.
 
